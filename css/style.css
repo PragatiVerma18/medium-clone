@@ -1,0 +1,47 @@
+body{
+  margin: auto;
+}
+.navbar-brand{
+  margin-left: 100px;
+  margin-top: 10px;
+}
+/*.header{
+  display: flex;
+  flex-direction: row;
+}*/
+.btn-mem{
+  border: 1px solid #14A85E;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #14A85E;
+  margin-right: 100px;
+  background: white;
+}
+
+.btn-mem:hover{
+  border: 1px solid #14A85E;
+  border-radius: 10px;
+  color: #14A85E;
+  background: white;
+}
+.fa-search{
+  margin: 20px;
+}
+.sign-in{
+  color: #14A85E;
+  text-decoration: none;
+  margin: 25px;
+}
+.sign-in:hover{
+  color: #14A85E;
+  text-decoration: none;
+  margin: 25px;
+  cursor: pointer;
+}
+.mem{
+  color: black;
+  margin: 25px;
+  cursor: pointer;
+}
