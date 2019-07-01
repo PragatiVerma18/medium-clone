@@ -132,3 +132,93 @@ input {
 .center{
   margin: auto;
 }
+
+/*sticky sidebar*/
+.header{
+  display: flex;
+  flex-flow: row;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.space{
+  width: 100%;
+  color: #ccc;
+  background-color: #ccc;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.news{
+  margin-top: 20px;
+}
+.newside{
+ margin-top: 12px;
+ margin-left: 12px;
+}
+.sidebar {
+  width: 35%;
+  height: 100vh;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  margin-left: 0px; 
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0px !important; 
+  background: transparent; 
+  display: hidden;
+  }
+
+.main {
+  width: 60%;
+  height: 200vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main,
+.sidebar {
+  background-color: white;
+  color: #222222;
+  padding: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  font-size: 16px;
+}
+
+
+.bottom {
+  justify-self: bottom;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer p{
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 10px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+.footerimg{
+display: flex;
+flex-direction: row;
+}
+
+.fig{
+  margin-left: 8px;
+}
